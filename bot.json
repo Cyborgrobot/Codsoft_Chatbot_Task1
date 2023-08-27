@@ -1,0 +1,38 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["Sup", "hi", "hey"],
+    "bot_response": "Hey!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you around", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "Its my pleasure!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Internet.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm fine! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  }
+]
